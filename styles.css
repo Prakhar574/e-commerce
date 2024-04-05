@@ -5,9 +5,6 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: "Poppins", sans-serif;
-}
 
 h1 {
   font-size: 2.5rem;
@@ -380,4 +377,12 @@ footer a:hover{
       max-width: 80%;
       height: auto;
   }
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-Regular.woff2') format('woff2');
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
 }
